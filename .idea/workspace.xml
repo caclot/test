@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f735e3d0-a9b1-4e2b-a274-caf0af53c1d3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/avatar.jpg" afterPath="$PROJECT_DIR$/img/avatar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waterRipple.min.js" afterPath="$PROJECT_DIR$/waterRipple.min.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,10 +29,20 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="3259" lean-forward="false" selection-start-line="0" selection-start-column="3254" selection-end-line="0" selection-end-column="3259" />
+              <caret line="0" column="3218" lean-forward="true" selection-start-line="0" selection-start-column="3218" selection-end-line="0" selection-end-column="3218" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="waterRipple.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/waterRipple.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="3342" lean-forward="false" selection-start-line="0" selection-start-column="3336" selection-end-line="0" selection-end-column="3342" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -40,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="2407" lean-forward="false" selection-start-line="0" selection-start-column="2402" selection-end-line="0" selection-end-column="2407" />
+              <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="3029" />
               <folding />
             </state>
           </provider>
@@ -58,6 +69,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>yiyan</find>
+      <find>&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;UTF-8&quot;&gt;&lt;meta name=&quot;google-site-verification&quot; content=&quot;riwnp5QCq6dRKbhBa3d3aDZrfGLQVhMFN9d4fMGYuoU&quot;&gt;&lt;meta name=&quot;baidu-site-verification&quot; content=&quot;6gd5EPyLlX&quot;&gt;&lt;title&gt;Home&lt;/title&gt;&lt;script src=&quot;waterRipple.min.js&quot;&gt;&lt;/script&gt;&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot;&gt;&lt;link href=&quot;https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css&quot; rel=&quot;stylesheet&quot;&gt;&lt;link href=&quot;https://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=980&quot;&gt;&lt;link href=&quot;style.css&quot; rel=&quot;stylesheet&quot;&gt;&lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=UA-106179639-2&quot;&gt;&lt;/script&gt;&lt;script&gt;function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag(&quot;js&quot;,new Date),gtag(&quot;config&quot;,&quot;UA-106179639-2&quot;);&lt;/script&gt;&lt;/head&gt;&lt;body id=&quot;root&quot;&gt;&lt;div id=&quot;ripple&quot; style=&quot;position:fixed;top:0;left:0;width:100%;height:100%&quot;&gt;&lt;/div&gt;&lt;script&gt;var isMobile=document.body.scrollHeight/document.body.scrollWidth&gt;1.25,img;isMobile?img=&quot;./mobile.jpg&quot;:document.body.scrollWidth&lt;=1440?img=&quot;./fish_1.jpg&quot;:document.body.scrollWidth&gt;1440&amp;&amp;document.body.scrollWidth&lt;=1920?img=&quot;./fish_2.jpg&quot;:document.body.scrollWidth&gt;1920&amp;&amp;(img=&quot;./fish_3.jpg&quot;);var o={image:img,rippleRadius:5,width:document.body.scrollWidth,height:document.body.scrollHeight,delay:.5,auto:!0},e=new WaterRippleEffect(document.getElementById(&quot;ripple&quot;),o);document.getElementById(&quot;ripple&quot;).style.cursor=&quot;pointer&quot;,document.getElementById(&quot;ripple&quot;).addEventListener(&quot;click&quot;,function(t){var i=t.layerX,o=t.layerY;e.disturb(i,o)}),window.addEventListener(&quot;resize&quot;,function(){location.reload()}),document.getElementById(&quot;ripple&quot;).addEventListener(&quot;touchmove&quot;,function(t){e.disturb(t.layerX,t.layerY)});&lt;/script&gt;&lt;div class=&quot;box&quot;&gt;&lt;a href=&quot;/&quot; class=&quot;avatar&quot; title=&quot;点击刷新&quot;&gt;&lt;img id=&quot;avt&quot; src=&quot;/img/avatar.jpg&quot; class=&quot;animated zoomIn img&quot;&gt;&lt;/a&gt;&lt;div class=&quot;yiyanDiv&quot;&gt;&lt;span id=&quot;yiyanSpan&quot;&gt;￣▽￣. . .&lt;/span&gt;&lt;/div&gt;&lt;nav class=&quot;social_nav&quot;&gt;&lt;ul class=&quot;social&quot;&gt;&lt;a class=&quot;fa Blog&quot; href=&quot;https://blog.wangriyu.wang&quot; title=&quot;博客&quot;&gt;&lt;/a&gt; &lt;a class=&quot;fa Email&quot; href=&quot;mailto:wangriyu1997@gmail.com&quot; title=&quot;Email&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt; &lt;a class=&quot;fa GitHub&quot; href=&quot;https://github.com/wangriyu&quot; title=&quot;GitHub&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt; &lt;a class=&quot;fa JueJin&quot; href=&quot;https://juejin.im/user/58c3744bda2f605609683d66&quot; title=&quot;掘金&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt; &lt;a class=&quot;fa Rss&quot; href=&quot;https://blog.wangriyu.wang/atom.xml&quot; title=&quot;RSS&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt; &lt;a class=&quot;fa Netease&quot; href=&quot;https://music.163.com/#/user/home?id=102244407&quot; title=&quot;网易云音乐&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt; &lt;a class=&quot;fa Zhihu&quot; href=&quot;https://www.zhihu.com/people/ke-lao-en-clown/activities&quot; title=&quot;知乎&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt; &lt;a class=&quot;fa Facebook&quot; href=&quot;https://www.facebook.com/riyu.wang.7&quot; title=&quot;Facebook&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt; &lt;a class=&quot;fa Twitter&quot; href=&quot;https://twitter.com/kClownduo&quot; title=&quot;Twitter&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;&lt;/ul&gt;&lt;/nav&gt;&lt;/div&gt;&lt;script&gt;var yiyan = document.getElementById('yiyanSpan');fetch('https://sslapi.hitokoto.cn/').then(function (res) { return res.json() }).then(function (data) { yiyan.textContent = data.hitokoto ? (data.hitokoto.length &gt; 40 ? data.hitokoto.slice(0, 40) + '... ' + `   ---「${data.from}」` : data.hitokoto + `   ---「${data.from}」`) : '￣▽￣Null?!. . .' }).catch(function (err) { yiyan.textContent = '￣▽￣获取失败了. . .' })&lt;/script&gt;&lt;audio id=&quot;audio&quot; autoplay src=&quot;./FellForU.mp3&quot; loop&gt;&lt;/audio&gt;&lt;script&gt;function autoPlayMusic(){function e(){musicPlay(!0),document.body.removeEventListener(&quot;touchstart&quot;,e),document.body.removeEventListener(&quot;click&quot;,e)}function t(){musicPlay(!0),document.addEventListener(&quot;WeixinJSBridgeReady&quot;,function(){musicPlay(!0)},!1),document.removeEventListener(&quot;DOMContentLoaded&quot;,t)}document.body.addEventListener(&quot;touchstart&quot;,e),document.body.addEventListener(&quot;click&quot;,e),document.addEventListener(&quot;DOMContentLoaded&quot;,t)}function musicPlay(e){var t=document.getElementById(&quot;audio&quot;);e&amp;&amp;t.paused&amp;&amp;t.play()}autoPlayMusic();&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</find>
+      <find />
+      <find>return</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -66,8 +80,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/waterRipple.min.js" />
       </list>
     </option>
   </component>
@@ -92,7 +107,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="873" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -191,7 +206,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,7 +218,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,11 +268,13 @@
       <workItem from="1512366344442" duration="551000" />
       <workItem from="1513490329826" duration="3808000" />
       <workItem from="1513505451373" duration="175000" />
+      <workItem from="1513579379238" duration="253000" />
+      <workItem from="1513866264539" duration="321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6319000" />
+    <option name="totallyTimeSpent" value="6893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -294,6 +311,42 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3259" lean-forward="false" selection-start-line="0" selection-start-column="3254" selection-end-line="0" selection-end-column="3259" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="42" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2407" lean-forward="false" selection-start-line="0" selection-start-column="2402" selection-end-line="0" selection-end-column="2407" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -406,23 +459,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/waterRipple.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/V2EX.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/waterRipple.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3342" lean-forward="false" selection-start-line="0" selection-start-column="3336" selection-end-line="0" selection-end-column="3342" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="2407" lean-forward="false" selection-start-line="0" selection-start-column="2402" selection-end-line="0" selection-end-column="2407" />
+          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="3029" />
           <folding />
         </state>
       </provider>
@@ -430,7 +483,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="3259" lean-forward="false" selection-start-line="0" selection-start-column="3254" selection-end-line="0" selection-end-column="3259" />
+          <caret line="0" column="3218" lean-forward="true" selection-start-line="0" selection-start-column="3218" selection-end-line="0" selection-end-column="3218" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
