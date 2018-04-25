@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="google-site-verification" content="riwnp5QCq6dRKbhBa3d3aDZrfGLQVhMFN9d4fMGYuoU">
@@ -9,7 +9,7 @@
   <link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
   <link href="https://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
   <meta name="viewport" content="width=980">
-  <link href="style.css" rel="stylesheet">
+  <link href="style.min.css" rel="stylesheet">
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106179639-2"></script>
   <script>
     function gtag () {dataLayer.push(arguments)}
@@ -21,9 +21,9 @@
   <div class="box">
     <a href="/" class="avatar" title="点击刷新">
       <img id="avt" src="/img/avatar.jpg" class="animated zoomIn img">
-    </a>          
+    </a>
     <div class="yiyanDiv">
-      <span id="yiyanSpan">￣▽￣. . .</span>          
+      <span id="yiyanSpan">￣▽￣. . .</span>
     </div>
     <nav class="social_nav">
       <ul class="social">
@@ -39,7 +39,7 @@
       </ul>
     </nav>
   </div>
-  <script src="./waterRipple.min.js"></script>
+  <script src="waterRipple.min.js"></script>
   <script type="application/javascript">
     var height = document.body.scrollHeight, width = document.body.scrollWidth;
     var isMobile = height / width > 1.25, img;
@@ -59,27 +59,6 @@
       document.body.scrollHeight === height && document.body.scrollWidth === width || window.location.reload()
     })
   </script>
-  <script type="application/javascript">
-    var yiyan = document.getElementById('yiyanSpan');
-    fetch('https://sslapi.hitokoto.cn/').then(function (res) {
-      return res.json()
-    }).then(function (data) {
-      yiyan.textContent = data.hitokoto ? (data.hitokoto.length > 40 ? data.hitokoto.slice(0, 40) + '...' + `---「${data.from}」` : data.hitokoto + `---「${data.from}」`) : '￣▽￣Null?!. . .'
-    }).catch(function (err) {yiyan.textContent = '￣▽￣获取失败了. . .'})
-    var audio = document.createElement('audio');
-    audio.id = 'audio';
-    audio.src = './FellForU.mp3';
-    audio.autoplay = true;
-    audio.addEventListener('ended', function () {
-      audio.currentTime = 0;
-      audio.play()
-    }, false)
-    document.body.addEventListener('touchstart', function () {
-      audio.paused && audio.play()
-    })
-    document.body.addEventListener('click', function () {
-      audio.paused && audio.play()
-    })
-  </script>
+  <script src="main.min.js" async></script>
 </body>
 </html>
