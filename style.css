@@ -36,12 +36,15 @@ body, html {
   text-align: center;
   -webkit-box-orient: horizontal;
   -webkit-box-pack: center;
-  -webkit-box-align: center
+  -webkit-box-align: center;
+  animation: rotating 5s linear infinite;
+  -webkit-animation: rotating 5s linear infinite
 }
 
 .avatar:hover {
-  animation: rotating 5s linear infinite;
-  -webkit-animation: rotating 5s linear infinite
+  transform: scale(1.1);
+  animation: none;
+  -webkit-animation: none
 }
 
 @keyframes rotating {
