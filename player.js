@@ -16,7 +16,7 @@
           : (e.list.add({
               title: 'Fell For U',
               author: 'Noicybino',
-              url: 'https://blog-1255567157.cos.ap-shanghai.myqcloud.com/FellForU.mp3',
+              url: 'FellForU.mp3',
               pic: 'img/love.png',
               lrc: '',
             }),
