@@ -1,8 +1,3 @@
-/*
- * Revision History:
- *     Initial: 2018/04/25        Wang RiYu
- */
-
 !function () {
   var yiyan = document.getElementById('yiyanSpan'), xhr = new XMLHttpRequest();
 
@@ -23,19 +18,4 @@
 
   GetYiyan()
   setInterval(GetYiyan, 15000)
-
-  var audio = document.createElement('audio');
-  audio.id = 'audio';
-  audio.src = 'https://blog-1255567157.cos.ap-shanghai.myqcloud.com/FellForU.mp3';
-  audio.autoplay = true;
-  audio.addEventListener('ended', function () {
-    audio.currentTime = 0;
-    audio.play()
-  }, false)
-  document.body.addEventListener('touchstart', function () {
-    audio.paused && audio.play()
-  })
-  document.body.addEventListener('click', function () {
-    audio.paused && audio.play()
-  })
 }()
