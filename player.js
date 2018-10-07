@@ -1,6 +1,7 @@
 !(function() {
   const e = new APlayer({
     element: document.getElementById('aplayer'),
+    autoplay: true,
     mutex: !0,
     theme: '#EBEEDF',
     order: 'random',
