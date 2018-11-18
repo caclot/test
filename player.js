@@ -1,5 +1,5 @@
 !(function() {
-  const e = new APlayer({
+  const ap = new APlayer({
     element: document.getElementById('aplayer'),
     autoplay: true,
     mutex: !0,
@@ -13,31 +13,31 @@
   (xhr.onreadystatechange = function() {
       4 === xhr.readyState &&
         (200 === xhr.status
-          ? (e.list.add(JSON.parse(xhr.responseText)), e.play())
-          : (e.list.add({
+          ? (ap.list.add(JSON.parse(xhr.responseText)), ap.play())
+          : (ap.list.add({
               title: 'Fell For U',
               author: 'Noicybino',
               url: 'FellForU.mp3',
               pic: 'img/love.png',
               lrc: '',
             }),
-            e.play()));
+            ap.play()));
   }),
   xhr.send();
 
-  document.body.addEventListener('touchstart', function() {
-    e.audio.paused && e.play();
-  }, {once: true});
-  document.body.addEventListener('click', function() {
-    e.audio.paused && e.play();
-  }, {once: true});
   document.getElementById('previous').addEventListener('click', function () {
-    e.skipBack()
+    ap.skipBack()
   });
   document.getElementById('next').addEventListener('click', function () {
-    e.skipBack()
+    ap.skipBack()
   });
+  ap.on('play', function() {
+    document.getElementById('avt').innerHTML='<img id="fish" src="/img/avatar.jpg">'
+  })
+  ap.on('pause', function() {
+    document.getElementById('avt').innerHTML = '<img id="play" src="/img/play.png">'
+  })
   document.getElementById('avt').addEventListener('click', function () {
-    e.toggle()
+    ap.toggle()
   });
 })();
