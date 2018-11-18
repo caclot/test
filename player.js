@@ -27,8 +27,17 @@
 
   document.body.addEventListener('touchstart', function() {
     e.audio.paused && e.play();
-  });
+  }, {once: true});
   document.body.addEventListener('click', function() {
     e.audio.paused && e.play();
+  }, {once: true});
+  document.getElementById('previous').addEventListener('click', function () {
+    e.skipBack()
+  });
+  document.getElementById('next').addEventListener('click', function () {
+    e.skipBack()
+  });
+  document.getElementById('avt').addEventListener('click', function () {
+    e.toggle()
   });
 })();
