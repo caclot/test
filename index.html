@@ -35,26 +35,7 @@
       </ul>
     </nav>
   </div>
-  <script src="waterRipple.min.js"></script>
-  <script type="application/javascript">
-    var height = document.body.scrollHeight, width = document.body.scrollWidth;
-    var isMobile = height / width > 1.25, img;
-    isMobile ? img = 'img/mobile.jpg' : width <= 1440 ? img = 'img/fish_1.jpg' : width > 1440 && width <= 1920 ? img = 'img/fish_2.jpg' : width > 1920 && (img = 'img/fish_3.jpg');
-    var o = {
-      image: img, rippleRadius: 5, width: width, height: height, delay: .5, auto: !0
-    }, e = new WaterRippleEffect(document.getElementById('ripple'), o);
-    document.getElementById('ripple').style.cursor = 'pointer';
-    document.getElementById('ripple').addEventListener('click', function (t) {
-      var i = t.layerX, o = t.layerY
-      e.disturb(i, o)
-    });
-    document.getElementById('ripple').addEventListener('touchmove', function (t) {
-      e.disturb(t.layerX, t.layerY)
-    });
-    window.addEventListener('resize', function () {
-      document.body.scrollHeight === height && document.body.scrollWidth === width || window.location.reload()
-    })
-  </script>
+  <script src="waterRipple.min.js" async></script>
   <script src="main.min.js" async></script>
   <link href="//src.wangriyu.wang/lib/Aplayer/APlayer.min.css" rel="stylesheet">
   <script src="//src.wangriyu.wang/lib/Aplayer/APlayer.min.js"></script>
