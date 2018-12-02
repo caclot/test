@@ -12,6 +12,10 @@ html {
   background-color: #F0E5E1;
 }
 
+#waterCanvas {
+  cursor: pointer;
+}
+
 .box {
   position: absolute;
   top: 50%;
@@ -43,9 +47,9 @@ html {
   margin: 0 2px 0;
   width: 60px;
   height: 60px;
-  border: 3px solid #e5e5e5b8;
+  border: 3px solid rgba(232, 232, 232, .8);
   border-radius: 50%;
-  background: #e5e5e54c;
+  background: rgba(232, 232, 232, .3);
   box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1), 1px 1px 3px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   -webkit-box-orient: horizontal;
@@ -55,6 +59,7 @@ html {
   text-align: center;
   text-decoration: none;
   opacity: 0.75;
+  cursor: pointer;
 }
 
 .Backward::before {
@@ -87,11 +92,13 @@ html {
   display: block;
   width: 128px;
   height: 128px;
-  border: 5px solid #e5e5e5b8;
+  border: 5px solid rgba(232, 232, 232, .8);
   border-radius: 50%;
-  background: #e5e5e5aa;
+  background: rgba(232, 232, 232, .6);
   text-align: center;
   overflow: hidden;
+  cursor: pointer;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1), 1px 1px 3px rgba(0, 0, 0, 0.3);
   -webkit-box-orient: horizontal;
   -webkit-box-pack: center;
   -webkit-box-align: center;
