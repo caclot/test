@@ -220,6 +220,11 @@ html {
   background-size: 90%;
 }
 
+.social_nav .social .Jianshu {
+  background: url(/img/jianshu.png) center no-repeat #fff;
+  background-size: 105%;
+}
+
 .social_nav .social .Facebook {
   background: #3b5998;
 }
