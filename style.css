@@ -181,6 +181,11 @@ html {
   background-size: 90%;
 }
 
+.social_nav .social .CSDN {
+  background: url(/img/csdn.png) center no-repeat #fff;
+  background-size: 100%;
+}
+
 .social_nav .social .Blog {
   background: #af89d6;
 }
